@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0D1A2D;
+    color: white;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 37.5rem;
+    /*600px */
+    width: 21.875rem;
+    background-color: #15273F;
+    border-radius: 15px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.card-img {
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+}
+
+.card-img img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card h3 {
+    margin: 10px auto 10px 20px;
+    font-weight: 600;
+}
+
+.card p {
+    margin: 10px auto 10px 20px;
+    display: inline;
+    color: #8296B8;
+    font-weight: 400;
+}
+
+.card .card-status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+.card-price {
+    color: cyan;
+}
+
+.nft-creator-info {
+    display: flex;
+    align-items: center;
+    margin: 10px 20px;
+    border-top: 0.5px solid #8296B8;
+    padding-top: 20px;
+}
+
+div .creator-img {
+    width: 30px;
+}
+
+.creator-img img {
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.creator-name {
+    margin-left: 10px;
+    font-weight: 300;
+}
+
+.creator-name span {
+    color: #8296B8;
+}
+
+.card-price,
+.card-date {
+    display: flex;
+    align-items: center;
+}
+
+.card-price span,
+.card-date span {
+    margin-left: 10px;
+}
+
+.card-price i,
+.card-date i {
+    margin-top: 4px;
+}
